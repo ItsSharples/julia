@@ -20,7 +20,8 @@ How to use it
 
 ### Configurations
 Edit the `_config.yml` file and make the theme yours
- * Change the **username** to your own. You need to ensure the ```baseurl``` and ```url``` settings match the website URL. You can find this in the settings page.
+ * Change the **username** to your own. You need to ensure the ```baseurl``` and ```url``` settings match the website URL. 
+   * You can find the URL in the GitHub Pages settings.
  * You can change the base color in */css/main.sccs*  ```$brand-color:      new-color;```
  * To enable comments modify the ```disqus_shortname```
  * To enable google-analytics set ```google-analytics``` to true and paste your tracking code in ```/_inludes/google_analytics.html```
