@@ -6,14 +6,7 @@ A minimalistic jekyll theme
 Home page
 
 ![about-page](https://raw.githubusercontent.com/kuoa/julia/master/assets/home.png)
----------------------------
 
-Part one of a long post
-![post-1](https://raw.githubusercontent.com/kuoa/julia/master/assets/post_1.png)
----------------------------
-
-Part two of a long post
-![post-2](https://raw.githubusercontent.com/kuoa/julia/master/assets/post_2.png)
 ---------------------------
 
 Posts will be listed by category in the `Archive` page alongside with their tags
@@ -27,7 +20,7 @@ How to use it
 
 ### Configurations
 Edit the `_config.yml` file and make the theme yours
- * Change the **username** to your own. You need to edit the ```baseurl``` and ```url``` settings
+ * Change the **username** to your own. You need to ensure the ```baseurl``` and ```url``` settings match the website URL. You can find this in the settings page.
  * You can change the base color in */css/main.sccs*  ```$brand-color:      new-color;```
  * To enable comments modify the ```disqus_shortname```
  * To enable google-analytics set ```google-analytics``` to true and paste your tracking code in ```/_inludes/google_analytics.html```
